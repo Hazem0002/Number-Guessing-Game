@@ -1,3 +1,6 @@
+from inputFunction import get_user_guess
+from randomNumber import generate_random_number
+
 def play_game():
     print("Welcome to the Number Guessing Game!")
     random_number = generate_random_number()
